@@ -76,3 +76,14 @@ stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
 
 for item in prices:
   print "%s price: %s stock: %s" % (item, prices[item], stock[item])
+
+
+# for loop in Python
+
+n = [3, 5, 7]
+
+def print_list(x):
+  for i in range(0, len(x)):
+    print x[i]
+
+print_list(n)
